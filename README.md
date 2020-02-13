@@ -1,15 +1,20 @@
-# TC3041 Proyecto  Final Primavera 2019
+# TC3041 Proyecto Final Primavera 2020
 
 #*[Poner aquí el Título del Proyecto]*
 ---
 
 ##### Integrantes:
-1. *[Poner aquí Nombre y Apellidos del integrante 1]*
-2. *[Poner aquí Nombre y Apellidos del integrante 2]*
-
+1. *[Poner aquí Nombre y Apellidos del integrante 1]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
+2. *[Poner aquí Nombre y Apellidos del integrante 2]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
+3. *[Poner aquí Nombre y Apellidos del integrante 3]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
+4. *[Poner aquí Nombre y Apellidos del integrante 4]* - *[Poner aquí su Matrícula]* - *[Poner aquí su campus]*
 
 ---
 ## 1. Aspectos generales
+
+Las orientaciones del proyecto se encuentran disponibles en la plataforma **Canvas**.
+
+Este documento es una guía sobre qué información debe entregar como parte del proyecto, qué requerimientos técnicos debe cumplir y la estructura que debe seguir para organizar su entrega.
 
 ### 1.1 Requerimientos técnicos
 
@@ -21,7 +26,7 @@ A continuación se mencionan los requerimientos técnicos mínimos del proyecto,
 * La arquitectura debe ser modular, escalable, con redundancia y alta disponibilidad.
 * La arquitectura deberá estar separada claramente por capas (*frontend*, *backend*, *API RESTful*, datos y almacenamiento).
 * Los diferentes componentes del proyecto (*frontend*, *backend*, *API RESTful*, bases de datos, entre otros) deberán ejecutarse sobre contenedores [Docker](https://www.docker.com/) y utilizar [Kubernetes](https://kubernetes.io/) como orquestador.
-* Todo el código, *datasets* y la documentación del proyecto debe alojarse en un repositorio de GitHub siguiendo al estructura que aparece a continuación.
+* Todo el código, *datasets* y la documentación del proyecto debe alojarse en este repositorio de GitHub siguiendo la estructura que aparece a continuación.
 
 ### 1.2 Estructura del repositorio
 El proyecto debe seguir la siguiente estructura de carpetas:
@@ -33,7 +38,6 @@ El proyecto debe seguir la siguiente estructura de carpetas:
     - api			# Carpeta con la solución de la API
     - datasets		        # Carpeta con los datasets y recursos utilizados (csv, json, audio, videos, entre otros)
     - dbs			# Carpeta con los modelos, catálogos y scripts necesarios para generar las bases de datos
-    - models			# Carpeta donde se almacenarán los modelos de Machine Learning ya entrenados 
     - docs			# Carpeta con la documentación del proyecto
         - stage_f               # Documentos de la entrega final
         - manuals               # Manuales y guías
@@ -99,7 +103,7 @@ A continuación aparecen descritos los diferentes elementos que forman parte de 
 * **Headers**:
 * **Formato JSON del cuerpo de la solicitud**: 
 * **Formato JSON de la respuesta**:
-
+* **Códigos de error**:
 
 ## 3.6 Pasos a seguir para utilizar el proyecto
 
